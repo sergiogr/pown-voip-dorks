@@ -1,0 +1,46 @@
+{
+  "name": "pown-voip-dorks",
+  "version": "0.1.0",
+  "description": "Pownage guaranteed",
+  "main": "index.js",
+  "scripts": {
+    "start": "POWN_ROOT=. pown voip-dorks",
+    "voip-dorks": "POWN_ROOT=. pown voip-dorks",
+    "dep-sec": "nsp check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pownjs/pown-credits.git"
+  },
+  "keywords": [
+    "exploit",
+    "framework",
+    "voip",
+    "sip"
+  ],
+  "author": "Sergio García <s3rgio.gr@gmail.com",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pownjs/pown-credits/issues"
+  },
+  "homepage": "https://github.com/pownjs/pown#readme",
+  "devDependencies": {
+    "pown-cli": "^0.2.0",
+    "nsp": "^2.6.3"
+  },
+  "pown": {
+    "commands": [
+      "./index.js"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "pown-modules": "^0.4.0",
+    "wordwrap": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
